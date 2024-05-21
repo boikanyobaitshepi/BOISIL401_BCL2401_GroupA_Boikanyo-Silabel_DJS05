@@ -5,3 +5,8 @@ class Store {
       this.state = initialState;
       this.listeners = [];
     }
+
+    getState() {
+        return this.state;
+      }
+  
