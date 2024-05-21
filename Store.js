@@ -40,4 +40,5 @@ class Store {
    // Create the Store
    const store = new Store(tallyReducer, 0);
 
+   // Subscribe to Changes
 
