@@ -44,5 +44,7 @@ class Store {
    const unsubscribe = store.subscribe((newState) => {
     console.log("State updated:", newState);
   });
+
+  // Test Scenarios
   
 
