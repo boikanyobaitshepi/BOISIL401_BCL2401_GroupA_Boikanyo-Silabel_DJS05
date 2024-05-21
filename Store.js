@@ -21,4 +21,7 @@ class Store {
           this.listeners = this.listeners.filter((l) => l !== listener);
         };
       }
-}
+    }
+
+
+  // Tally Counter Reducer (Pure Function)
