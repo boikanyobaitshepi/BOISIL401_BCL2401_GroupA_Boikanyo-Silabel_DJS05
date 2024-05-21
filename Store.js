@@ -54,3 +54,4 @@ class Store {
 
   store.dispatch({ type: "SUBTRACT" }); // Scenario 3
 
+  store.dispatch({ type: "RESET" }); // Scenario 4
