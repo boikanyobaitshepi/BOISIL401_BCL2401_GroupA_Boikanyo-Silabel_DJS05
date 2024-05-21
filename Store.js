@@ -46,5 +46,5 @@ class Store {
   });
 
   // Test Scenarios
-  
+  console.log("Initial state:", store.getState()); // Scenario 1
 
