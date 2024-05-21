@@ -48,3 +48,7 @@ class Store {
   // Test Scenarios
   console.log("Initial state:", store.getState()); // Scenario 1
 
+   
+  store.dispatch({ type: "ADD" });
+  store.dispatch({ type: "ADD" }); // Scenario 2
+
