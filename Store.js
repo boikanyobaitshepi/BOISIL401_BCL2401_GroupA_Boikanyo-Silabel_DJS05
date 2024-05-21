@@ -21,4 +21,4 @@ class Store {
           this.listeners = this.listeners.filter((l) => l !== listener);
         };
       }
-  
+}
