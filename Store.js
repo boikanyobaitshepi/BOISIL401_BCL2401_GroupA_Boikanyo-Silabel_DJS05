@@ -9,4 +9,8 @@ class Store {
     getState() {
         return this.state;
       }
-  
+   
+    dispatch(action) {
+      this.state = this.reducer(this.state, action);
+      this.listeners.forEach((listener) => listener(this.state));
+    }
