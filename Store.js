@@ -25,3 +25,7 @@ class Store {
 
 
   // Tally Counter Reducer (Pure Function)
+  const tallyReducer = (state = 0, action) => {
+    switch (action.type) {
+      case "ADD":
+        return state + 1;
